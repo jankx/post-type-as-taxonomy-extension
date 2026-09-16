@@ -1,0 +1,32 @@
+{
+    "name": "jankx/post-type-as-taxonomy",
+    "description": "Registers a Custom Post Type as a taxonomy-like selector UI on any post type edit screen (Classic Editor + Gutenberg)",
+    "type": "wordpress-extension",
+    "authors": [
+        {
+            "name": "Puleeno Nguyen",
+            "email": "puleeno@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Jankx\\Extensions\\PostTypeAsTaxonomy\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jankx\\Extensions\\PostTypeAsTaxonomy\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "brain/monkey": "^2.6",
+        "mockery/mockery": "^1.5"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": false
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Post Type as Taxonomy",
+    "version": "1.0.0",
+    "description": "Provide an API to register a Custom Post Type that acts like a taxonomy — displaying a taxonomy-style post selection UI (for both Classic Editor and Gutenberg) across any post type.",
+    "author": "Jankx",
+    "extension_id": "post-type-as-taxonomy",
+    "context": [
+        "admin"
+    ],
+    "caller": {
+        "file": "PostTypeAsTaxonomyExtension.php",
+        "class": "Jankx\\Extensions\\PostTypeAsTaxonomy\\PostTypeAsTaxonomyExtension",
+        "method": "init"
+    },
+    "requirements": {
+        "php": ">=7.4"
+    },
+    "auto_activate": true
+}
