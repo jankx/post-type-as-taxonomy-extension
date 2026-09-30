@@ -19,7 +19,7 @@ use Jankx\Extensions\PostTypeAsTaxonomy\Contracts\RegistrationInterface;
  *   ]);
  *
  *   // Apply to multiple target post types (array)
- *   PostTypeAsTaxonomyManager::register('destination', ['tour', 'place', 'experience', 'tour_journey'], [
+ *   PostTypeAsTaxonomyManager::register('destination', ['tour', 'place', 'tour_journey'], [
  *       'label'    => 'Điểm đến',
  *       'meta_key' => '_destination_ids',
  *       'multiple' => true,

@@ -21,7 +21,7 @@ use Jankx\Extensions\PostTypeAsTaxonomy\Storage\PostMetaStorage;
  *   // In register_hooks() or after_setup_theme (priority >= 20):
  *   PostTypeAsTaxonomyManager::register(
  *       'destination_tour',                              // source post type
- *       ['tour', 'place', 'experience', 'tour_journey'], // target post types (string|array)
+ *       ['tour', 'place', 'tour_journey'], // target post types (string|array)
  *       [
  *           'label'    => 'Điểm đến',
  *           'meta_key' => '_destination_tour_ids',
